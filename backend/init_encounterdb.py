@@ -8,9 +8,13 @@ cursor = conn.cursor()
 cursor.execute('''CREATE TABLE encounters
                   (name TEXT, difficulty TEXT, details TEXT)''')
 
+cursor.execute('''CREATE TABLE npcs
+               (name TEXT, tier INTEGER, role TEXT)''')
+
 # Insert some sample data into the 'encounters' table
 cursor.execute("INSERT INTO encounters VALUES ('Bandit Ambush', 'Medium', 'A group of bandits attack')")
 cursor.execute("INSERT INTO encounters VALUES ('Alien Ruins', 'Hard', 'The party discovers ancient alien ruins')")
+cursor.execute("INSERT INTO npcs VALUES ")
 
 # Save (commit) the changes and close the connection
 conn.commit()
