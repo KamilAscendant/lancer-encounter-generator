@@ -1,0 +1,3343 @@
+[
+  {
+    "id": "npcc_ace",
+    "name": "ACE",
+    "role": "striker",
+    "info": {
+      "flavor": "The first person to embody the “Ace” archetype was Aisling Jensen, an auxiliary pilot active during the liberation of Verdana. Knights of the chassis and sky, Aces like Aisling throw their mechs into battle with high-speed strafing runs, agile maneuvers, and reckless feats of daring. Cocky and self-assured, Aces relish a good duel.",
+      "tactics": "Aces are very fast and reactive strikers that can use Evasive Maneuvers to mitigate dangerous or high-damage attacks. Barrel Roll is most effective against heavy weapons. Their Seeking weapons ignore cover and don’t require line of sight, allowing them to deal consistent damage. Relatively low HP makes Aces vulnerable to sustained damage, and they are relatively weak against tech attacks."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        12,
+        15,
+        18
+      ],
+      "edef": [
+        8,
+        8,
+        10
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        6,
+        7
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        3,
+        4,
+        6
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        0,
+        1,
+        1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_ssc_flight_system_ace",
+      "npcf_missile_launcher_ace",
+      "npcf_barrel_roll_ace"
+    ],
+    "optional_features": [
+      "npcf_bombing_bay_ace",
+      "npcf_strafe_ace",
+      "npcf_missile_swarm_ace",
+      "npcf_rapid_response_ace",
+      "npcf_chaff_launchers_ace"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_aegis",
+    "name": "AEGIS",
+    "role": "support",
+    "info": {
+      "flavor": "Aegis-archetype mechs are built to hold ground, support their allies, and suppress enemies. First used to great effect during the Comorrand Action by a Karrakin pilot, Lady Gloria of House MacLennan, Aegis’s are known for their powerful defensive measures. Their pilots can expertly make a bulwark out of the smallest barricade with anything from conventional tools to cutting-edge technologies.",
+      "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible since they can be difficult to redeploy. Regenerative Shielding also protects the Aegis from mobility-reducing effects."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        3
+      ],
+      "hp": [
+        14,
+        18,
+        18
+      ],
+      "evade": [
+        7,
+        8,
+        8
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        10,
+        10,
+        10
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        8,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        11,
+        12
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        -2,
+        -1,
+        -1
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        2,
+        3,
+        5
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_light_laser_aegis",
+      "npcf_defense_net_aegis",
+      "npcf_regenerative_shielding_aegis"
+    ],
+    "optional_features": [
+      "npcf_adaptive_shielding_aegis",
+      "npcf_guardian_aegis",
+      "npcf_ring_of_fire_aegis",
+      "npcf_hardlight_cover_system_aegis",
+      "npcf_ha_blackwall_system_aegis"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_archer",
+    "name": "ARCHER",
+    "role": "controller",
+    "info": {
+      "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
+      "tactics": "Archers excel at inflicting “choice punishment” on their enemies – they make characters choose between taking certain actions or letting the Archer attack them. Use Archers to lock down mobile or hard-hitting PCs or to cover for more vulnerable allies. Keep in mind that Archers are most effective when they can get fairly close to their targets, but they aren’t especially durable."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        1
+      ],
+      "hp": [
+        16,
+        20,
+        20
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        6
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        11,
+        13,
+        16
+      ],
+      "hull": [
+        -1,
+        -1,
+        -1
+      ],
+      "agility": [
+        2,
+        3,
+        4
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_light_machine_gun_archer",
+      "npcf_suppress_archer",
+      "npcf_moving_target_archer",
+      "npcf_superior_sentinel_archer"
+    ],
+    "optional_features": [
+      "npcf_blinding_shells_archer",
+      "npcf_impending_threat_archer",
+      "npcf_covering_fire_archer",
+      "npcf_rapid_response_archer",
+      "npcf_hail_of_fire_archer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_assassin",
+    "name": "ASSASSIN",
+    "role": "striker",
+    "info": {
+      "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
+      "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage."
+    },
+    "stats": {
+      "armor": [
+        0,
+        1,
+        1
+      ],
+      "hp": [
+        15,
+        15,
+        15
+      ],
+      "evade": [
+        12,
+        15,
+        17
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        7,
+        7,
+        7
+      ],
+      "speed": [
+        6,
+        6,
+        8
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        0,
+        1,
+        1
+      ],
+      "agility": [
+        2,
+        3,
+        4
+      ],
+      "systems": [
+        1,
+        1,
+        2
+      ],
+      "engineering": [
+        -1,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_kai_bioplating_assassin",
+      "npcf_heated_blade_assassin",
+      "npcf_assassins_mark_assassin",
+      "npcf_leap_assassin"
+    ],
+    "optional_features": [
+      "npcf_devils_cough_shotgun_assassin",
+      "npcf_sap_assassin",
+      "npcf_spinning_kick_assassin",
+      "npcf_cloud_projector_assassin",
+      "npcf_explosive_knives_assassin"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_assault",
+    "name": "ASSAULT",
+    "role": "striker",
+    "info": {
+      "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
+      "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        15,
+        18,
+        21
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        9,
+        10
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_heavy_assault_rifle_assault",
+      "npcf_combat_knife_assault",
+      "npcf_hunker_down_assault"
+    ],
+    "optional_features": [
+      "npcf_underslung_grenade_launcher_assault",
+      "npcf_micro_missile_barrage_assault",
+      "npcf_high_impact_rounds_assault",
+      "npcf_auto_targeting_assault",
+      "npcf_rank_discipline_assault"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_barricade",
+    "name": "BARRICADE",
+    "role": "controller",
+    "info": {
+      "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
+      "tactics": "Barricades are at their best when locking down fast-moving targets. They can use their Mobile Printer to create hard cover for allies or to prevent melee mechs from moving through an area."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        12,
+        16,
+        20
+      ],
+      "evade": [
+        6,
+        7,
+        8
+      ],
+      "edef": [
+        9,
+        11,
+        13
+      ],
+      "heatcap": [
+        10,
+        11,
+        12
+      ],
+      "speed": [
+        3,
+        3,
+        4
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        12,
+        15,
+        18
+      ],
+      "hull": [
+        0,
+        1,
+        2
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        1,
+        1,
+        2
+      ],
+      "engineering": [
+        3,
+        5,
+        6
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_graviton_lance_barricade",
+      "npcf_mobile_printer_barricade",
+      "npcf_shock_plating_barricade",
+      "npcf_bulwark_mods_barricade"
+    ],
+    "optional_features": [
+      "npcf_drag_down_barricade",
+      "npcf_seismic_repulsor_barricade",
+      "npcf_extrudite_barricade",
+      "npcf_hunger_pursuit_limpets_barricade",
+      "npcf_titan_snare_drone_barricade"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_bastion",
+    "name": "BASTION",
+    "role": "defender",
+    "info": {
+      "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
+      "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities."
+    },
+    "stats": {
+      "armor": [
+        3,
+        3,
+        4
+      ],
+      "hp": [
+        10,
+        10,
+        10
+      ],
+      "evade": [
+        8,
+        10,
+        10
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        8,
+        10,
+        12
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        8,
+        10,
+        12
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        -3,
+        -3,
+        -2
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        2,
+        3,
+        4
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_rotary_grenade_launcher_bastion",
+      "npcf_heavy_assault_shield_bastion",
+      "npcf_friendly_interdiction_bastion",
+      "npcf_guardian_bastion"
+    ],
+    "optional_features": [
+      "npcf_near_threat_denial_system_bastion",
+      "npcf_siege_guardian_bastion",
+      "npcf_pause_engine_bastion",
+      "npcf_fearless_defender_bastion",
+      "npcf_deathcounter_bastion"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_berserker",
+    "name": "BERSERKER",
+    "role": "striker",
+    "info": {
+      "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
+      "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        12,
+        16,
+        20
+      ],
+      "evade": [
+        8,
+        9,
+        10
+      ],
+      "edef": [
+        6,
+        6,
+        6
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        3,
+        4,
+        6
+      ],
+      "agility": [
+        2,
+        4,
+        4
+      ],
+      "systems": [
+        -2,
+        -2,
+        -2
+      ],
+      "engineering": [
+        -1,
+        -1,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_chain_axe_berserker",
+      "npcf_stampede_defense_berserker",
+      "npcf_aggression_berserker",
+      "npcf_avalanche_charge_berserker"
+    ],
+    "optional_features": [
+      "npcf_juggernaut_berserker",
+      "npcf_harpoon_cannon_berserker",
+      "npcf_nail_gun_berserker",
+      "npcf_retribution_berserker",
+      "npcf_superhot_berserker"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_bombard",
+    "name": "BOMBARD",
+    "role": "artillery",
+    "info": {
+      "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
+      "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance, so place them far back to maximize their effectiveness. Bombards’ Earthshaker Shells are great for preventing enemy movement and providing cover, but can harm allies as well."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        13,
+        16
+      ],
+      "evade": [
+        7,
+        8,
+        8
+      ],
+      "edef": [
+        12,
+        14,
+        16
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        2,
+        2,
+        3
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        11,
+        13,
+        16
+      ],
+      "hull": [
+        0,
+        1,
+        1
+      ],
+      "agility": [
+        -1,
+        -1,
+        -1
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        2,
+        3,
+        5
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_bombard_cannon_bombard",
+      "npcf_cluster_munitions_bombard",
+      "npcf_earthshaker_shells_bombard",
+      "npcf_siege_armor_bombard"
+    ],
+    "optional_features": [
+      "npcf_high_impact_shells_bombard",
+      "npcf_bunker_buster_bombard",
+      "npcf_flare_drone_bombard",
+      "npcf_repeater_cannon_bombard",
+      "npcf_cluster_seeker_bombs_bombard"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_breacher",
+    "name": "BREACHER",
+    "role": "striker",
+    "info": {
+      "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
+      "tactics": "Breachers can deal out significant Burst damage, but they aren’t especially accurate. To boost their capabilities, use Lock On or pair them with support NPCs. The Breach Ram makes short work of cover; however, it lacks speed and range, and risks provoking reactions."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        18,
+        20,
+        22
+      ],
+      "evade": [
+        9,
+        11,
+        13
+      ],
+      "edef": [
+        7,
+        7,
+        7
+      ],
+      "heatcap": [
+        7,
+        7,
+        8
+      ],
+      "speed": [
+        3,
+        4,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        2,
+        3,
+        4
+      ],
+      "agility": [
+        0,
+        1,
+        2
+      ],
+      "systems": [
+        -1,
+        -1,
+        -1
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_dual_shotguns_breacher",
+      "npcf_breach_ram_breacher",
+      "npcf_break_armor_breacher"
+    ],
+    "optional_features": [
+      "npcf_painmaker_breacher",
+      "npcf_superior_ram_breacher",
+      "npcf_follower_count_breacher",
+      "npcf_thermal_charge_breacher",
+      "npcf_flechette_shot_breacher"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_cataphract",
+    "name": "CATAPHRACT",
+    "role": "striker",
+    "info": {
+      "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
+      "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        15,
+        17,
+        20
+      ],
+      "evade": [
+        10,
+        11,
+        12
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        6,
+        7,
+        8
+      ],
+      "speed": [
+        8,
+        8,
+        8
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        1,
+        2,
+        4
+      ],
+      "agility": [
+        1,
+        3,
+        4
+      ],
+      "systems": [
+        0,
+        0,
+        0
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_ram_cannon_cataphract",
+      "npcf_trample_cataphract",
+      "npcf_impale_cataphract",
+      "npcf_point_defense_shield_cataphract"
+    ],
+    "optional_features": [
+      "npcf_electrified_lasso_cataphract",
+      "npcf_lance_shot_cataphract",
+      "npcf_electrified_bola_cataphract",
+      "npcf_capacitor_discharge_cataphract",
+      "npcf_charge_cataphract"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_demolisher",
+    "name": "DEMOLISHER",
+    "role": "defender",
+    "info": {
+      "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
+      "tactics": "Demolishers are slow, resilient defenders that dish out plenty of damage and stuns when they get close to the enemy. Use their size and power in melee combat to force enemy characters to move away instead of fighting them, and Dig In to shrug off heavy hits."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        15,
+        20,
+        25
+      ],
+      "evade": [
+        6,
+        6,
+        6
+      ],
+      "edef": [
+        7,
+        7,
+        7
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        2,
+        2,
+        3
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        13,
+        15
+      ],
+      "hull": [
+        3,
+        4,
+        6
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        -1,
+        -1,
+        -1
+      ],
+      "engineering": [
+        2,
+        3,
+        4
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_demolition_hammer_demolisher",
+      "npcf_dig_in_demolisher",
+      "npcf_shock_armor_demolisher",
+      "npcf_heavy_frame_demolisher"
+    ],
+    "optional_features": [
+      "npcf_broad_sweep_haft_demolisher",
+      "npcf_kinetic_compensation_demolisher",
+      "npcf_concussion_missiles_demolisher",
+      "npcf_seismic_destroyer_demolisher",
+      "npcf_sap_demolisher"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_engineer",
+    "name": "ENGINEER",
+    "role": "striker",
+    "info": {
+      "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
+      "tactics": "Engineers’ Deployable Turrets make them potent force multipliers, as they can deploy one every turn. If enemies don’t deal with an Engineer's turrets quickly, their potential damage quickly skyrockets – even more when they target characters with Engineer’s Mark. Without Engineer’s Mark, turrets attack the nearest target, which players can use to control who takes damage."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        20,
+        20,
+        20
+      ],
+      "evade": [
+        7,
+        9,
+        11
+      ],
+      "edef": [
+        10,
+        10,
+        12
+      ],
+      "heatcap": [
+        10,
+        12,
+        14
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -1,
+        -1,
+        -1
+      ],
+      "agility": [
+        -1,
+        -1,
+        -1
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        3,
+        4,
+        6
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_flak_cannon_engineer",
+      "npcf_deployable_turret_engineer",
+      "npcf_engineers_mark_engineer"
+    ],
+    "optional_features": [
+      "npcf_power_deployer_engineer",
+      "npcf_skyshield_protocol_engineer",
+      "npcf_shepherd_field_engineer",
+      "npcf_mobile_turrets_engineer",
+      "npcf_arsenal_engineer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_goliath",
+    "name": "GOLIATH",
+    "role": "defender",
+    "info": {
+      "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br>With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
+      "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        25,
+        30,
+        35
+      ],
+      "evade": [
+        6,
+        6,
+        6
+      ],
+      "edef": [
+        6,
+        6,
+        6
+      ],
+      "heatcap": [
+        8,
+        10,
+        12
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        10,
+        10,
+        15
+      ],
+      "save": [
+        11,
+        13,
+        15
+      ],
+      "hull": [
+        4,
+        6,
+        6
+      ],
+      "agility": [
+        -2,
+        -2,
+        -2
+      ],
+      "systems": [
+        1,
+        1,
+        1
+      ],
+      "engineering": [
+        0,
+        0,
+        2
+      ],
+      "size": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_drum_shotgun_goliath",
+      "npcf_crush_targeting_goliath",
+      "npcf_heavy_frame_goliath",
+      "npcf_guardian_goliath",
+      "npcf_siege_armor_goliath"
+    ],
+    "optional_features": [
+      "npcf_power_knuckle_goliath",
+      "npcf_pin_goliath",
+      "npcf_crushing_embrace_goliath",
+      "npcf_watchful_guardian_goliath",
+      "npcf_retribution_goliath"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_hive",
+    "name": "HIVE",
+    "role": "controller",
+    "info": {
+      "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
+      "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
+    },
+    "stats": {
+      "armor": [
+        0,
+        1,
+        1
+      ],
+      "hp": [
+        20,
+        20,
+        20
+      ],
+      "evade": [
+        8,
+        8,
+        10
+      ],
+      "edef": [
+        10,
+        13,
+        16
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        12,
+        14,
+        17
+      ],
+      "hull": [
+        -1,
+        -1,
+        1
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        2,
+        4,
+        5
+      ],
+      "engineering": [
+        1,
+        1,
+        1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_hunter_killer_nexus_hive",
+      "npcf_drone_barrage_hive",
+      "npcf_razor_swarms_hive"
+    ],
+    "optional_features": [
+      "npcf_electro_nanite_cloud_hive",
+      "npcf_motile_swarm_hive",
+      "npcf_driving_swarm_hive",
+      "npcf_grind_maniple_hive",
+      "npcf_seeker_cloud_hive"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_hornet",
+    "name": "HORNET",
+    "role": "controller",
+    "info": {
+      "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar & Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
+      "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        16,
+        18,
+        20
+      ],
+      "edef": [
+        6,
+        7,
+        8
+      ],
+      "heatcap": [
+        5,
+        6,
+        7
+      ],
+      "speed": [
+        6,
+        8,
+        10
+      ],
+      "sensor": [
+        5,
+        5,
+        10
+      ],
+      "save": [
+        12,
+        14,
+        16
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        2,
+        4,
+        6
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_stinger_pistol_hornet",
+      "npcf_ssc_total_suite_hornet",
+      "npcf_weave_hornet",
+      "npcf_impale_systems_hornet"
+    ],
+    "optional_features": [
+      "npcf_adapt_evade_disengage_hornet",
+      "npcf_umbral_interdiction_hornet",
+      "npcf_supersonic_hornet",
+      "npcf_hex_missiles_hornet",
+      "npcf_lock_hold_javelins_hornet"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_mirage",
+    "name": "MIRAGE",
+    "role": "support",
+    "info": {
+      "flavor": "Mirage-class mechs are often found in the employ of HORIZON-aligned militant groups. With no originating manufacturer, they are one of the few open-source non-HORUS pattern groups available to cells that know where to look. Mirages deploy advanced liturgicode to wrap themselves and their allies in veils of illusion and misdirection. While it’s clear that the warping effects that surround these mechs are caused by sensor distortion, they are powerful enough to affect even organic systems – exercise caution when engaging.",
+      "tactics": "Mirages are potent support mechs, able to teleport their allies around at will and shut down ranged attackers with Warp Sensors. They can make allied characters Invisible, but become vulnerable while doing so. These strengths come at a price: weapons and systems that ignore cover – such as Seeking weapons – can get around Warp Sensors, and Mirages don’t deal any damage on their own."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        12,
+        15,
+        18
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        5,
+        6,
+        7
+      ],
+      "sensor": [
+        15,
+        15,
+        20
+      ],
+      "save": [
+        11,
+        14,
+        17
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_warp_sensors_mirage",
+      "npcf_reality_flicker_mirage",
+      "npcf_dataveil_mirage",
+      "npcf_glitch_scanners_mirage",
+      "npcf_blip_mirage"
+    ],
+    "optional_features": [
+      "npcf_illusory_subroutines_mirage",
+      "npcf_warp_targeting_mirage",
+      "npcf_metafold_shove_mirage",
+      "npcf_manifest_false_idols_mirage",
+      "npcf_multiplicity_mirage"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_operator",
+    "name": "OPERATOR",
+    "role": "artillery",
+    "info": {
+      "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
+      "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, but can use Trace Drive to teleport around the battlefield and put themselves in advantageous positions: on top of obstructions or terrain, or in cover – anywhere they can snipe at enemies with their highly accurate Raptor Plasma Rifles."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        15
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        2,
+        3,
+        4
+      ],
+      "agility": [
+        2,
+        3,
+        4
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        2,
+        3,
+        4
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_raptor_plasma_rifle_operator",
+      "npcf_trace_drive_operator",
+      "npcf_step_operator",
+      "npcf_self_erasure_operator"
+    ],
+    "optional_features": [
+      "npcf_fade_generator_operator",
+      "npcf_telefrag_operator",
+      "npcf_fortress_operator",
+      "npcf_skirmisher_operator",
+      "npcf_nova_missiles_operator"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_priest",
+    "name": "PRIEST",
+    "role": "support",
+    "info": {
+      "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
+      "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        13,
+        16
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        12,
+        15,
+        18
+      ],
+      "heatcap": [
+        10,
+        10,
+        10
+      ],
+      "speed": [
+        5,
+        5,
+        6
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        11,
+        13,
+        15
+      ],
+      "hull": [
+        -1,
+        -1,
+        -1
+      ],
+      "agility": [
+        -1,
+        -1,
+        -1
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        2,
+        3,
+        4
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_abjure_priest",
+      "npcf_hardened_target_priest",
+      "npcf_investiture_priest",
+      "npcf_dispersal_shield_priest"
+    ],
+    "optional_features": [
+      "npcf_greater_investiture_priest",
+      "npcf_empowered_shield_priest",
+      "npcf_sanctuary_priest",
+      "npcf_fortress_priest",
+      "npcf_fractal_assault_priest"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_pyro",
+    "name": "PYRO",
+    "role": "defender",
+    "info": {
+      "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
+      "tactics": "Pyros are slow, resilient mechs that are especially potent against characters already suffering from Burn. If players don’t keep their distance, Pyros can use Explosive Vent to dump an enormous amount of heat on right on them. Position Pyros so they can protect allies against incoming fire with Firebreak Shield. Note, however, that players can move around shields to reduce their effectiveness to zero, or they can deactivate them by hitting Pyros with Stunned or Knockback weapons."
+    },
+    "stats": {
+      "armor": [
+        3,
+        3,
+        4
+      ],
+      "hp": [
+        10,
+        13,
+        15
+      ],
+      "evade": [
+        8,
+        8,
+        8
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        12,
+        12,
+        16
+      ],
+      "speed": [
+        2,
+        2,
+        2
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        -1,
+        0,
+        0
+      ],
+      "systems": [
+        -1,
+        -1,
+        0
+      ],
+      "engineering": [
+        3,
+        4,
+        5
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_flamethrower_pyro",
+      "npcf_explosive_vent_pyro",
+      "npcf_insulated_pyro",
+      "npcf_firebreak_shield_pyro"
+    ],
+    "optional_features": [
+      "npcf_unshielded_reactor_pyro",
+      "npcf_siege_armor_pyro",
+      "npcf_napalm_bomb_pyro",
+      "npcf_superhot_pyro",
+      "npcf_explosive_jet_pyro"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_rainmaker",
+    "name": "RAINMAKER",
+    "role": "artillery",
+    "info": {
+      "flavor": "The tongue-in-cheek “Rainmaker” nickname describes mechs and pilots that specialize in the use of rockets and missiles. Favored by flexible combat units, Rainmakers are mobile platforms loaded with ordnance and capable of handling engagements at any range, against any target.",
+      "tactics": "Rainmakers are one part artillery and one part controller. Their Javelin Rockets force characters to avoid certain areas or take guaranteed damage. They can also dish out delayed damage through optional systems like Hound Missiles and Atlas Missiles. Like other artillery mechs, Rainmakers are relatively vulnerable on their own."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        1,
+        1
+      ],
+      "systems": [
+        2,
+        3,
+        3
+      ],
+      "engineering": [
+        0,
+        0,
+        1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_missile_pods_rainmaker",
+      "npcf_javelin_rockets_rainmaker",
+      "npcf_huntsman_rainmaker"
+    ],
+    "optional_features": [
+      "npcf_hades_missiles_rainmaker",
+      "npcf_hound_missiles_rainmaker",
+      "npcf_endless_rain_rainmaker",
+      "npcf_volley_rainmaker",
+      "npcf_atlas_missiles_rainmaker"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_ronin",
+    "name": "RONIN",
+    "role": "striker",
+    "info": {
+      "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
+      "tactics": "Ronins are no-nonsense, high-damage melee strikers. Rebound makes it dangerous for enemies to attack Ronins with ranged weapons, but they tend to suffer against armored enemies and are heavily reliant on Accuracy."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        18,
+        20,
+        22
+      ],
+      "evade": [
+        10,
+        13,
+        16
+      ],
+      "edef": [
+        7,
+        7,
+        7
+      ],
+      "heatcap": [
+        7,
+        7,
+        7
+      ],
+      "speed": [
+        5,
+        5,
+        6
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        13,
+        15
+      ],
+      "hull": [
+        1,
+        2,
+        4
+      ],
+      "agility": [
+        2,
+        4,
+        5
+      ],
+      "systems": [
+        -1,
+        -1,
+        -1
+      ],
+      "engineering": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_carbon_fiber_sword_ronin",
+      "npcf_rebound_ronin"
+    ],
+    "optional_features": [
+      "npcf_charged_slash_ronin",
+      "npcf_chaff_launchers_ronin",
+      "npcf_echo_edge_ronin",
+      "npcf_instinct_mode_ronin",
+      "npcf_extended_blade_ronin"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_scourer",
+    "name": "SCOURER",
+    "role": "striker",
+    "info": {
+      "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
+      "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to stay still to make the most of their weapons."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        10,
+        13,
+        15
+      ],
+      "evade": [
+        8,
+        9,
+        10
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        8,
+        8,
+        12
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        0,
+        1,
+        1
+      ],
+      "systems": [
+        0,
+        0,
+        1
+      ],
+      "engineering": [
+        1,
+        2,
+        4
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_thermal_lance_scourer",
+      "npcf_focus_down_scourer",
+      "npcf_cooling_module_scourer",
+      "npcf_ablative_shielding_scourer"
+    ],
+    "optional_features": [
+      "npcf_supercharged_scourer",
+      "npcf_emergency_vent_scourer",
+      "npcf_pulse_laser_scourer",
+      "npcf_flash_lens_scourer",
+      "npcf_melt_scourer"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_scout",
+    "name": "SCOUT",
+    "role": "support",
+    "info": {
+      "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
+      "tactics": "Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle and Cloaking Field allow them to both keep allied characters alive and prevent enemies from hiding. They are especially adept at revealing Invisible characters but need to get close to their targets to take full advantage of this ability. Like most support mechs, Scouts aren’t especially resilient on their own."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        8,
+        8,
+        8
+      ],
+      "evade": [
+        12,
+        15,
+        18
+      ],
+      "edef": [
+        10,
+        13,
+        18
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        6,
+        7,
+        8
+      ],
+      "sensor": [
+        20,
+        20,
+        20
+      ],
+      "save": [
+        11,
+        13,
+        15
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        2,
+        4,
+        5
+      ],
+      "systems": [
+        3,
+        4,
+        5
+      ],
+      "engineering": [
+        -1,
+        -1,
+        0
+      ],
+      "size": [
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_marker_rifle_scout",
+      "npcf_sight_scout",
+      "npcf_rebound_scan_scout",
+      "npcf_cloaking_field_scout"
+    ],
+    "optional_features": [
+      "npcf_system_flayer_scout",
+      "npcf_spotter_scout",
+      "npcf_expose_weakness_scout",
+      "npcf_dataveil_scout",
+      "npcf_orbital_strike_scout"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_seeder",
+    "name": "SEEDER",
+    "role": "controller",
+    "info": {
+      "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
+      "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage."
+    },
+    "stats": {
+      "armor": [
+        2,
+        2,
+        2
+      ],
+      "hp": [
+        12,
+        14,
+        16
+      ],
+      "evade": [
+        7,
+        8,
+        9
+      ],
+      "edef": [
+        10,
+        10,
+        11
+      ],
+      "heatcap": [
+        10,
+        10,
+        10
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        12,
+        15,
+        18
+      ],
+      "hull": [
+        0,
+        1,
+        2
+      ],
+      "agility": [
+        0,
+        0,
+        0
+      ],
+      "systems": [
+        2,
+        3,
+        4
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_lay_mines_seeder",
+      "npcf_grav_grenade_launcher_seeder"
+    ],
+    "optional_features": [
+      "npcf_hopping_mines_seeder",
+      "npcf_tripwires_seeder",
+      "npcf_speed_deployer_seeder",
+      "npcf_grav_spike_seeder",
+      "npcf_det_spike_seeder"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_sentinel",
+    "name": "SENTINEL",
+    "role": "defender",
+    "info": {
+      "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
+      "tactics": "Sentinels are fast defenders that focus on protecting their allies with Overwatch. They are fairly short-range attackers, relying on positioning to get the most from their kit, and aren’t as resilient as other defenders."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        16,
+        20,
+        24
+      ],
+      "evade": [
+        8,
+        11,
+        13
+      ],
+      "edef": [
+        8,
+        11,
+        13
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        6
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        2,
+        3,
+        4
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_combat_shotgun_sentinel",
+      "npcf_retractable_sword_sentinel",
+      "npcf_eye_of_midnight_sentinel",
+      "npcf_guardian_sentinel"
+    ],
+    "optional_features": [
+      "npcf_punisher_ammunition_sentinel",
+      "npcf_wrath_lock_sentinel",
+      "npcf_impaler_sentinel",
+      "npcf_rapid_response_sentinel",
+      "npcf_bodyguard_sentinel",
+      "npcf_reflexive_blow_sentinel"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_sniper",
+    "name": "SNIPER",
+    "role": "artillery",
+    "info": {
+      "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
+      "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused damage. Using Sniper’s Mark, they can deal direct structure damage, making short work of almost any character. Opponents can avoid this with clever use of cover, or by dropping Prone. Snipers’ main downside is that they need to be fairly stationary to do their best work, as their rifle requires a full action to fire."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        12,
+        14
+      ],
+      "evade": [
+        10,
+        13,
+        16
+      ],
+      "edef": [
+        8,
+        9,
+        10
+      ],
+      "heatcap": [
+        6,
+        6,
+        6
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        15,
+        15,
+        15
+      ],
+      "save": [
+        11,
+        13,
+        15
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        1,
+        3,
+        4
+      ],
+      "engineering": [
+        1,
+        1,
+        2
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_anti_materiel_rifle_sniper",
+      "npcf_snipers_mark_sniper",
+      "npcf_climber_sniper"
+    ],
+    "optional_features": [
+      "npcf_selective_loader_sniper",
+      "npcf_defensive_grapple_sniper",
+      "npcf_relocation_sniper",
+      "npcf_shroud_charge_sniper",
+      "npcf_moving_target_sniper",
+      "npcf_deadmetal_rounds_sniper"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_specter",
+    "name": "SPECTER",
+    "role": "striker",
+    "info": {
+      "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
+      "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Threat and Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        10,
+        10
+      ],
+      "evade": [
+        10,
+        14,
+        18
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        7,
+        7,
+        7
+      ],
+      "speed": [
+        4,
+        5,
+        7
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        -2,
+        -2,
+        -2
+      ],
+      "agility": [
+        3,
+        5,
+        6
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        0,
+        1,
+        1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_monowire_sword_specter",
+      "npcf_prowl_specter",
+      "npcf_tactical_cloak_specter",
+      "npcf_hunt_specter"
+    ],
+    "optional_features": [
+      "npcf_fortress_specter",
+      "npcf_drain_systems_specter",
+      "npcf_step_specter",
+      "npcf_machine_pistol_specter",
+      "npcf_weakness_analyzer_specter"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_support",
+    "name": "SUPPORT",
+    "role": "support",
+    "info": {
+      "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
+      "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        15,
+        18,
+        22
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        1,
+        1
+      ],
+      "agility": [
+        -2,
+        -1,
+        -1
+      ],
+      "systems": [
+        0,
+        1,
+        2
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_sealant_gun_support",
+      "npcf_restock_drone_support",
+      "npcf_nano_repair_cloud_support"
+    ],
+    "optional_features": [
+      "npcf_remote_reboot_support",
+      "npcf_empowered_cloud_support",
+      "npcf_remote_cloud_support",
+      "npcf_defensive_pulse_support",
+      "npcf_latch_drone_support"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_witch",
+    "name": "WITCH",
+    "role": "controller",
+    "info": {
+      "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
+      "tactics": "Witches are no-nonsense controllers that use Tear Down to inflict heat and Blind to shut down ranged attackers. Predatory Logic gives them a tool to use against characters with heavy weapons, which can also aid their allies. Targets generally have an opportunity to mitigate their heat somewhat, since Witches deal most of their heat on their next turn."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        12,
+        14,
+        14
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        13,
+        16,
+        20
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        6,
+        6,
+        6
+      ],
+      "sensor": [
+        15,
+        15,
+        20
+      ],
+      "save": [
+        12,
+        15,
+        18
+      ],
+      "hull": [
+        -2,
+        -1,
+        -2
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        3,
+        5,
+        6
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_tear_down_witch",
+      "npcf_blind_witch",
+      "npcf_predatory_logic_witch",
+      "npcf_blur_witch"
+    ],
+    "optional_features": [
+      "npcf_spread_suffering_witch",
+      "npcf_dark_cloud_witch",
+      "npcf_chain_witch",
+      "npcf_petrify_witch",
+      "npcf_pain_transference_witch"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_human",
+    "name": "HUMAN",
+    "role": "biological",
+    "info": {
+      "flavor": "All kinds of people end up on the battlefield, including pilots, VIPs, and bystanders.<br>You will mostly use Human NPCs when someone climbs out of their mech mid-battle; if you want a proper group of infantry, use the Squad class instead. Humans can never take other templates, and cannot gain structure.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        6,
+        6,
+        6
+      ],
+      "evade": [
+        10,
+        10,
+        10
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        10,
+        10
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        1,
+        2,
+        3
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          0.5
+        ],
+        [
+          0.5
+        ],
+        [
+          0.5
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [],
+    "optional_features": [
+      "npcf_ranged_weapon_human",
+      "npcf_melee_weapon_human",
+      "npcf_anti_armor_weapon_human",
+      "npcf_veteran_human",
+      "npcf_armored_human"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_squad",
+    "name": "SQUAD",
+    "role": "biological",
+    "info": {
+      "flavor": "Although individual pilots and other non-mechanized soldiers might not present much of a threat to most mechs, a squad of infantry with the right gear and training can be dangerous in their own right.<br>Squads are exactly what they sound like: small groups of five to ten armed and armored soldiers represented as one character on the battlefield.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        10,
+        15,
+        20
+      ],
+      "evade": [
+        8,
+        8,
+        8
+      ],
+      "edef": [
+        8,
+        8,
+        8
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        2,
+        4,
+        6
+      ],
+      "agility": [
+        2,
+        4,
+        6
+      ],
+      "systems": [
+        2,
+        4,
+        6
+      ],
+      "engineering": [
+        2,
+        4,
+        6
+      ],
+      "size": [
+        [
+          4
+        ],
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_soldiers_squad",
+      "npcf_rank_and_file_squad",
+      "npcf_strength_in_numbers_squad",
+      "npcf_spread_out_squad",
+      "npcf_undersize_squad",
+      "npcf_primary_weapon_squad",
+      "npcf_anti_armor_weapon_squad"
+    ],
+    "optional_features": [
+      "npcf_armored_squad",
+      "npcf_ambushers_squad",
+      "npcf_duck_and_cover_squad",
+      "npcf_rapid_insertion_squad",
+      "npcf_disciplined_squad"
+    ],
+    "power": 100
+  },
+  {
+    "id": "npcc_monstrosity",
+    "name": "MONSTROSITY",
+    "role": "biological",
+    "info": {
+      "flavor": "Monstrosities are especially large or horrifying natural predators. Although they are usually wild, some monstrosities can be domesticated and trained for combat: such creatures are in high demand along the furthest reaches of the galaxy.",
+      "tactics": ""
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        14,
+        16,
+        18
+      ],
+      "evade": [
+        10,
+        12,
+        15
+      ],
+      "edef": [
+        10,
+        10,
+        10
+      ],
+      "heatcap": [
+        0,
+        0,
+        0
+      ],
+      "speed": [
+        6,
+        7,
+        8
+      ],
+      "sensor": [
+        10,
+        10,
+        10
+      ],
+      "save": [
+        10,
+        12,
+        15
+      ],
+      "hull": [
+        3,
+        4,
+        6
+      ],
+      "agility": [
+        2,
+        3,
+        4
+      ],
+      "systems": [
+        -2,
+        -2,
+        -2
+      ],
+      "engineering": [
+        -2,
+        -2,
+        -2
+      ],
+      "size": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "npcf_unique_physiology_monstrosity",
+      "npcf_deadliest_game_monstrosity",
+      "npcf_claws_monstrosity"
+    ],
+    "optional_features": [
+      "npcf_acid_spittle_monstrosity",
+      "npcf_adhesive_secretions_monstrosity",
+      "npcf_burrower_monstrosity",
+      "npcf_corrosive_bite_monstrosity",
+      "npcf_grasping_claws_monstrosity",
+      "npcf_natural_camouflage_monstrosity",
+      "npcf_rampage_monstrosity",
+      "npcf_regenerator_monstrosity",
+      "npcf_spined_monstrosity",
+      "npcf_swift_monstrosity",
+      "npcf_tempered_hide_monstrosity",
+      "npcf_winged_monstrosity"
+    ],
+    "power": 100
+  }
+]
