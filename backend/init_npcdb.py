@@ -1,11 +1,16 @@
 import sqlite3
+import os
+
+# Delete the database if it exists
+if os.path.exists('npc.db'):
+    os.remove('npc.db')
 
 # Initialize the database and create the table
 conn = sqlite3.connect('npc.db')
 cursor = conn.cursor()
 
 # Create a more detailed NPC table
-cursor.execute('''CREATE TABLE IF NOT EXISTS npcs (
+cursor.execute('''CREATE TABLE npcs (
     name TEXT,
     role TEXT,
     base_hp INTEGER,
@@ -20,13 +25,13 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS npcs (
     base_agility INTEGER,
     base_systems INTEGER,
     base_engineering INTEGER,
-    base_size TEXT,  # This will be JSON since it's an array
+    base_size TEXT,
     base_activations INTEGER,
     description TEXT,
     tactics TEXT,
-    tier_multipliers TEXT,  # JSON string containing stat multipliers for each tier
-    base_features TEXT,     # JSON array of base features
-    optional_features TEXT  # JSON array of optional features
+    tier_multipliers TEXT,
+    base_features TEXT,
+    optional_features TEXT
 )''')
 
 conn.commit()

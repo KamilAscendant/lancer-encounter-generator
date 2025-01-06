@@ -9,9 +9,23 @@ app = Flask(__name__)
 CORS(app)
 
 def connect_db():
-    conn = sqlite3.connect('npc.db')
-    conn.row_factory = sqlite3.Row
-    return conn
+    """Connect to the database and ensure it exists"""
+    try:
+        conn = sqlite3.connect('npc.db')
+        conn.row_factory = sqlite3.Row
+        
+        # Verify the database is initialized
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM npcs")
+        count = cursor.fetchone()[0]
+        
+        if count == 0:
+            raise Exception("Database is empty")
+            
+        return conn
+    except sqlite3.Error as e:
+        print(f"Database error: {e}")
+        raise
 
 def scale_npc_stats(npc, tier, multipliers):
     """Scale NPC stats based on tier"""
@@ -49,15 +63,32 @@ def select_npcs_by_role(all_npcs, num_npcs):
     
     return selected_npcs
 
+def select_optional_features(npc, tier):
+    """
+    Select optional features for an NPC based on their tier.
+    Tier 1: 0-1 optional features
+    Tier 2: 1-2 optional features
+    Tier 3: 2-3 optional features
+    """
+    optional_features = json.loads(npc['optional_features'])
+    
+    # Determine number of features based on tier
+    min_features = tier - 1  # Tier 1: 0, Tier 2: 1, Tier 3: 2
+    max_features = tier      # Tier 1: 1, Tier 2: 2, Tier 3: 3
+    
+    num_features = random.randint(min_features, max_features)
+    
+    # Randomly select that many features
+    selected = random.sample(optional_features, min(num_features, len(optional_features)))
+    
+    return selected
+
 @app.route('/api/encounter', methods=['GET'])
 def get_encounter():
     try:
         # Validate player count and level
-        try:
-            num_players = int(request.args.get('players', 1))
-            player_level = int(request.args.get('level', 1))
-        except ValueError:
-            return jsonify({"error": "Player count and level must be whole numbers"}), 400
+        num_players = int(request.args.get('players', 1))
+        player_level = int(request.args.get('level', 1))
             
         # Validate ranges
         if num_players < 1 or num_players > 6:
@@ -103,7 +134,7 @@ def get_encounter():
                 "stats": scale_npc_stats(npc, tier, multipliers),
                 "features": {
                     "base": json.loads(npc['base_features']),
-                    "optional": json.loads(npc['optional_features'])
+                    "optional": select_optional_features(npc, tier)
                 }
             }
             formatted_npcs.append(scaled_npc)
@@ -123,9 +154,12 @@ def get_encounter():
         
         return jsonify(encounter)
         
+    except ValueError as e:
+        return jsonify({"error": "Invalid input values"}), 400
     except sqlite3.Error as e:
         return jsonify({"error": f"Database error: {str(e)}"}), 500
     except Exception as e:
+        print(f"Unexpected error: {str(e)}")  # Add logging
         return jsonify({"error": f"Server error: {str(e)}"}), 500
     finally:
         if 'conn' in locals():

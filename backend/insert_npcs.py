@@ -17,6 +17,33 @@ def calculate_tier_multipliers(npc):
     
     return json.dumps(multipliers)
 
+def insert_npc(cursor, npc):
+    """Insert a single NPC into the database"""
+    base_stats = calculate_base_stats(npc)
+    tier_multipliers = calculate_tier_multipliers(npc)
+    description = npc.get('description', '')
+    tactics = npc.get('tactics', '')
+    base_features = json.dumps(npc.get('base_features', []))
+    optional_features = json.dumps(npc.get('optional_features', []))
+    
+    cursor.execute('''
+        INSERT INTO npcs (
+            name, role, base_hp, base_armor, base_evade, base_edef,
+            base_heatcap, base_speed, base_sensor, base_save,
+            base_hull, base_agility, base_systems, base_engineering,
+            base_size, base_activations,
+            description, tactics, tier_multipliers, base_features, optional_features
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        npc['name'], npc['role'],
+        base_stats['hp'], base_stats['armor'], base_stats['evade'], base_stats['edef'],
+        base_stats['heatcap'], base_stats['speed'], base_stats['sensor'], base_stats['save'],
+        base_stats['hull'], base_stats['agility'], base_stats['systems'], base_stats['engineering'],
+        json.dumps(base_stats['size']), base_stats['activations'],
+        description, tactics,
+        tier_multipliers, base_features, optional_features
+    ))
+
 # Load the JSON data
 with open('npc_classes.json', 'r', encoding='utf-8') as file:
     npc_data = json.load(file)
@@ -68,6 +95,7 @@ for npc in npc_data:
             ?, ?, ?, ?,
             ?, ?, ?, ?,
             ?, ?,
+            ?, ?, 
             ?, ?, ?
         )
     ''', (
