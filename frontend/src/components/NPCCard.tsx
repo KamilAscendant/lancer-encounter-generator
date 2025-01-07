@@ -1,11 +1,14 @@
 import React from 'react';
 import { NPC } from '../types';
-
+import { useState } from 'react';
+import NPCModal from './NPCModal';
 interface NPCCardProps {
   npc: NPC;
 }
 
 const NPCCard: React.FC<NPCCardProps> = ({ npc }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 mb-4">
       <div className="flex justify-between items-start">
@@ -54,9 +57,18 @@ const NPCCard: React.FC<NPCCardProps> = ({ npc }) => {
         </div>
       </div>
 
-      <button className="mt-4 text-sm text-indigo-600 hover:text-indigo-800">
+      <button 
+        onClick={() => setIsModalOpen(true)}
+        className="mt-4 text-sm text-indigo-600 hover:text-indigo-800"
+      >
         Show full details
       </button>
+
+      <NPCModal 
+        npc={npc}
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };
